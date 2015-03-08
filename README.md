@@ -1,6 +1,12 @@
 #TTS Server
 
-This is a simple Text To Speech (TTS) server that run on Mac OS X.
+This is (originally described as) a simple Text To Speech (TTS) server that run on Mac OS X. 
+
+in truth it is an API server that should be able to support almost any command line text to speech synthesizer.
+My goal here is to modify this code to support multiple speech synthesizers with a user-selectable audio output format.
+
+For some reason, this code doesn't work unless you also install swagger, winston and express. I'm not sure why these are not included and will add them unless there is some legal reason why I shouldn't.
+
 You can try the basic sample, by entering http://localhost:8082/ and entrering some text to be played.
 This sample queue automatically the text entered in the fields when you modify it and will be played when you hit the play button. If you want to hear them a second time you will have to either modify the text or press the 'ReQueueAll' button before pressing Play again.
 
