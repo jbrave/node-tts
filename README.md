@@ -2,7 +2,8 @@
 
 This is (originally described as) a simple Text To Speech (TTS) server that run on Mac OS X. 
 
-in truth it is an API server that should be able to support almost any command line text to speech synthesizer.
+in truth it is an API server that should be able to support almost any command line text to speech synthesizer on any operating system that supports node.js
+
 My goal here is to modify this code to support multiple speech synthesizers with a user-selectable audio output format.
 
 For some reason, this code doesn't work unless you also install swagger, winston and express. I'm not sure why these are not included and will add them unless there is some legal reason why I shouldn't.
